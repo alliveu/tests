@@ -1,0 +1,10 @@
+# 자동으로 텍스트 파일의 줄바꿈을 LF로 표준화
+* text=auto
+
+# 특정 파일에 명시적으로 LF만 사용
+*.js text eol=lf
+*.css text eol=lf
+*.py text eol=lf
+
+# 특정 파일에 명시적으로 CRLF 사용 (윈도우 전용이라면)
+# *.bat text eol=crlf
